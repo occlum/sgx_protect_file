@@ -1,6 +1,4 @@
-# sgx_cipher
-
-## Introduction
+# sgx_protect_file
 
 This is a command-line utility that encrypts and decrypts a file using SGX Protected File System Library.
 
@@ -22,5 +20,5 @@ To decrypt a file that is already encrypted, run a command in the following form
 
 ## TODOs
 
- [ ] Accept key argument (now hardcoded in the code)
- [ ] Use base64 encoding for key argument. See https://github.com/littlstar/b64.c.
+- [ ] Accept key argument (now hardcoded in the code)
+- [ ] Use base64 encoding for key argument (see https://github.com/littlstar/b64.c).
