@@ -288,7 +288,7 @@ int ocall_open(const char* path) {
 }
 
 int ocall_create(const char* path) {
-    return open(path, O_WRONLY | O_CREAT | O_APPEND, 0644);
+    return open(path, O_WRONLY | O_CREAT, 0644);
 }
 
 ssize_t ocall_read(int fd, void* buf, size_t size) {
