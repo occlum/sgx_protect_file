@@ -1,0 +1,7 @@
+*.o
+*.so
+sgx_protect_file
+App/Enclave_u.c
+App/Enclave_u.h
+Enclave/Enclave_t.c
+Enclave/Enclave_t.h
